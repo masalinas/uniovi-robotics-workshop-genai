@@ -30,6 +30,11 @@ Para poder ejecutar y editar el código fuente de estas pruebas de concepto, es 
 - Node.js y Angular CLI (necesarios para levantar el frontend de la `poc2`)
 - MATLAB instalado (necesario para la `poc3`)
 
+## Requisitos Visual Studio
+Si quieres editar el codigo generado por el agente, debes instalar algunas extensiones en el mismo:
+
+- Instalar la extensión de Ruff en tu equipo
+
 ## Enlaces de Interés
 
 - [Descargar Python](https://www.python.org/downloads/)
