@@ -41,7 +41,7 @@ share/python-wheels/
 
 # Archivos del sistema y editores
 .idea/
-.vscode/
+#.vscode/
 *.swp
 *.swo
 .DS_Store

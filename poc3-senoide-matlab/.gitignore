@@ -21,7 +21,7 @@ build/
 senoide.png
 
 # IDEs
-.vscode/
+#.vscode/
 .idea/
 
 LOG*
