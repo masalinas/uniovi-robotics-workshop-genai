@@ -1,2 +1,8 @@
-# uniovi_robotics_workshop_genai
+# Description
 Uniovi Robotics Workshop GenAI
+
+## User Cases:
+
+- Python Senoide
+- Bienbenida
+- Matlab
