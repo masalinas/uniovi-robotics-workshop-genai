@@ -1,0 +1,25 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Archivos de caché y compilados
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Empaquetado de Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Archivos generados
+senoide.png
+
+# IDEs
+.vscode/
+.idea/
