@@ -1,0 +1,10 @@
+# Reduce el ruido de contexto que el agente indexa/lee en este proyecto.
+# No sustituye a .gitignore: este fichero es específico de Antigravity.
+
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.git/
