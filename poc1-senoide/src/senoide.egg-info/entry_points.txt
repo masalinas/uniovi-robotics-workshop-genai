@@ -1,0 +1,2 @@
+[console_scripts]
+senoide = senoide.cli:main

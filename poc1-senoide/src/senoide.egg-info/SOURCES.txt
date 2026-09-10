@@ -1,0 +1,13 @@
+pyproject.toml
+src/senoide/__init__.py
+src/senoide/cli.py
+src/senoide/graficos.py
+src/senoide/senal.py
+src/senoide.egg-info/PKG-INFO
+src/senoide.egg-info/SOURCES.txt
+src/senoide.egg-info/dependency_links.txt
+src/senoide.egg-info/entry_points.txt
+src/senoide.egg-info/requires.txt
+src/senoide.egg-info/top_level.txt
+tests/test_cli.py
+tests/test_senal.py

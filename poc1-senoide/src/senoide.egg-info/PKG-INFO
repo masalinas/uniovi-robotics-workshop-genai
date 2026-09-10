@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: senoide
+Version: 0.1.0
+Summary: PoC1: Script Python sencillo (señal senoidal)
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
