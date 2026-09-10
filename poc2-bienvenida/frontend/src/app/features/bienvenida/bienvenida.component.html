@@ -1,0 +1,39 @@
+<div class="bienvenida-container">
+  <h2>Formulario de Saludo</h2>
+
+  <div class="form-group">
+    <label for="nombre">Nombre:</label>
+    <input
+      id="nombre"
+      type="text"
+      [ngModel]="nombre()"
+      (ngModelChange)="nombre.set($event)"
+      placeholder="Introduce tu nombre"
+      [disabled]="estado() === 'cargando'"
+    />
+    <button
+      (click)="enviar()"
+      [disabled]="!nombre().trim() || estado() === 'cargando'"
+    >
+      Saludar
+    </button>
+  </div>
+
+  <div class="feedback-container">
+    @if (estado() === "cargando") {
+      <p class="cargando">Comunicando con el servidor...</p>
+    }
+
+    @if (estado() === "error") {
+      <p class="error">
+        Error al comunicarse con el backend. Comprueba que está levantado.
+      </p>
+    }
+
+    @if (mensaje()) {
+      <div class="mensaje-exito">
+        <p>{{ mensaje() }}</p>
+      </div>
+    }
+  </div>
+</div>
